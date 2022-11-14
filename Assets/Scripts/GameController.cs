@@ -23,6 +23,12 @@ public class GameController : MonoBehaviour
 
     public bool isFinal;
 
+    public GameObject character1;
+
+    public GameObject character2;
+
+    public GameObject menuPausa;
+
     void Start()
     {
         winCollider = winSpot.GetComponent<BoxCollider2D>();
@@ -32,6 +38,9 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+
+        Physics2D.IgnoreCollision(character1.GetComponent<Collider2D>(), character2.GetComponent<Collider2D>());
+
         if (winCollider.IsTouching(playerCollider))
         {
             if (isFinal)
@@ -52,23 +61,37 @@ public class GameController : MonoBehaviour
                 player.GetComponent<Player>().respawnPoint = player.transform.position;
             }
         }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
         }
     }
-  
 
     public void Pause()
     {
         if(Time.timeScale > 0)
         {
             Time.timeScale = 0;
+            menuPausa.SetActive(true);
             GetComponent<AudioSource>().Pause();
         } else
         {
             Time.timeScale = 1;
+            menuPausa.SetActive(false);
             GetComponent<AudioSource>().Play();
         }
     }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1;
+    }
+
 }
