@@ -152,7 +152,7 @@ public class Player : MonoBehaviour
 
     private void DeathOnFall()
     {
-        if (transform.position.y < -10f)
+        if (transform.position.y < -25f)
         {
             transform.position = respawnPoint;
             Hit(0, null);
@@ -183,6 +183,11 @@ public class Player : MonoBehaviour
         {
             isGrounded = true;
         }
+        if (collider.name == "FallingPlatform")
+        {
+            isGrounded = true;
+        }
+
         if (collider.name == "warpA" || collider.name == "warpB")
         {
             GameObject warp = collider.transform.parent.gameObject;

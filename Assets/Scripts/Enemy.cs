@@ -40,10 +40,23 @@ public class Enemy : MonoBehaviour
     protected void OnTriggerEnter2D(Collider2D collider)
     {
         Player player = collider.GetComponent<Player>();
+        PlayerPet playerPet = collider.GetComponent<PlayerPet>();
+        FollowPlayer followplayer = collider.GetComponent<FollowPlayer>();
+
         if (player != null)
         {
             GetComponent<AudioSource>().Play();
             player.Hit(knockback, gameObject);
+        }
+        else if (playerPet != null)
+        {
+            GetComponent<AudioSource>().Play();
+            playerPet.Hit(knockback, gameObject);
+        }
+        else if (followplayer != null)
+        {
+            GetComponent<AudioSource>().Play();
+            followplayer.Hit(knockback, gameObject);
         }
     }
 
