@@ -3,7 +3,7 @@ guid: 354ef47d6563abd428f2fc8a154976ad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -102,6 +103,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -14480,7 +14493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_747
+      name: platformR
       rect:
         serializedVersion: 2
         x: 24
@@ -14501,7 +14514,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_748
+      name: platformC
       rect:
         serializedVersion: 2
         x: 32
@@ -14543,7 +14556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_750
+      name: platformL
       rect:
         serializedVersion: 2
         x: 48
@@ -25820,7 +25833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_1317
+      name: 0
       rect:
         serializedVersion: 2
         x: 0
@@ -26759,6 +26772,7 @@ TextureImporter:
       Tiles_1148: -857849505
       Tiles_475: -979087951
       Tiles_1201: -294334100
+      0: 1879700025
       Tiles_875: -1319843897
       Tiles_1079: 1258173021
       Tiles_356: -1249358289
@@ -26847,7 +26861,6 @@ TextureImporter:
       Tiles_119: -1663196780
       Tiles_1229: 1221273347
       Tiles_253: -2017075900
-      Tiles_747: 485653568
       Tiles_1155: 202928842
       Tiles_664: -1611945446
       Tiles_314: -1054487588
@@ -27020,7 +27033,6 @@ TextureImporter:
       Tiles_195: -1459358517
       Tiles_450: 660799739
       Tiles_512: -129386812
-      Tiles_750: -962144146
       Tiles_252: -1849255521
       Tiles_62: 1164008120
       Tiles_1132: 1897461462
@@ -27297,6 +27309,7 @@ TextureImporter:
       Tiles_672: -677095548
       Tiles_837: 904627773
       Tiles_1125: -1985760752
+      platformL: -962144146
       Checkpoint: 368359869
       Tiles_1215: 729717726
       Tiles_1112: -428140831
@@ -27405,7 +27418,6 @@ TextureImporter:
       Tiles_999: -204359378
       Tiles_1198: 226868073
       Tiles_1122: 19164233
-      Tiles_748: 295717592
       Tiles_820: -101251400
       Tiles_852: -852765826
       Tiles_1042: -1636042243
@@ -27578,10 +27590,9 @@ TextureImporter:
       Tiles_1328: 294245149
       Tiles_1036: 58910019
       Tiles_1134: 71790029
-      Tiles_1317: 1879700025
+      Tiles_1351: 2056086809
       Tiles_81: 1305322327
       Tiles_1304: -288013373
-      Tiles_1351: 2056086809
       Tiles_1130: -1803904598
       Tiles_1274: -1544878939
       Tiles_9: -217857142
@@ -27716,9 +27727,11 @@ TextureImporter:
       Tiles_66: -730124069
       Tiles_153: 16676828
       Tiles_922: 2108656314
+      platformC: 295717592
       Tiles_1292: -1733770645
       death_bush: -1211999921
       Tiles_535: -24141002
+      platformR: 485653568
       Tiles_428: -1080880317
       Tiles_883: -1971277387
       Tiles_1343: -312621636

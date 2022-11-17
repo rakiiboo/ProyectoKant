@@ -153,14 +153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc32310095e88aa46b83b4ba733aa465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 2
+  level: 1
   winSpot: {fileID: 1667699988}
   player: {fileID: 475420904}
   checkPoints:
   - {fileID: 1686397910}
   - {fileID: 1224745338}
   song: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
-  isFinal: 1
+  isFinal: 0
   character1: {fileID: 475420900}
   character2: {fileID: 1412338604}
   menuPausa: {fileID: 739644519}
