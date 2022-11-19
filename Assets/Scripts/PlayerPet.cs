@@ -86,6 +86,8 @@ public class PlayerPet : MonoBehaviour
         {
             
         }
+
+        
     }
 
     public void Death()
