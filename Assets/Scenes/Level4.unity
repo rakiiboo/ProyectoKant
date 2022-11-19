@@ -1372,8 +1372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 2
-  speed: 5
-  jumpForce: 500
+  speed: 3
+  jumpForce: 700
   bulletPrefab: {fileID: 3042019017827873129, guid: 1dfb223d854cad6428a85c02ab9462a2, type: 3}
   lifesPanel: {fileID: 946647970}
   horizontal: 0
