@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 432167152494494782, guid: f0bfd2b2425f5f54590578861404b365, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 432167152494494788, guid: f0bfd2b2425f5f54590578861404b365, type: 3}
       propertyPath: pressPanel
       value: 
@@ -31199,7 +31203,7 @@ MonoBehaviour:
   - {fileID: 1577707634}
   - {fileID: 1249623915}
   song: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
-  isFinal: 1
+  isFinal: 0
   character1: {fileID: 1898063299}
   character2: {fileID: 1379069470}
   menuPausa: {fileID: 1578671774}
@@ -34538,6 +34542,10 @@ PrefabInstance:
     - target: {fileID: 432167152494494782, guid: f0bfd2b2425f5f54590578861404b365, type: 3}
       propertyPath: m_Name
       value: NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 432167152494494782, guid: f0bfd2b2425f5f54590578861404b365, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 432167152494494788, guid: f0bfd2b2425f5f54590578861404b365, type: 3}
       propertyPath: pressPanel
