@@ -17,16 +17,13 @@ public class MovingEnemy : Enemy
 
     private GameObject wallR;
 
-    // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
-        //StartCoroutine (DirectionChange());
         wallL = transform.parent.Find("WallR").gameObject;
         wallR = transform.parent.Find("WallL").gameObject;
     }
 
-    // Update is called once per frame
     void Update()
     {
         

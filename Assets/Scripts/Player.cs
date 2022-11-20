@@ -95,16 +95,12 @@ public class Player : MonoBehaviour
 
     public void Death()
     {
-        transform.position = initialPosition;
-        respawnPoint = initialPosition;
+        //transform.position = initialPosition;
+        //respawnPoint = initialPosition;
         if (life < 0)
         {
             StartCoroutine(retrasoEscena("Lose"));
-            //life = 2;
-            //for(int i = 0; i < lifesPanel.transform.childCount; i++)
-            //{
-            //    lifesPanel.transform.GetChild(i).gameObject.SetActive(true);
-            //}
+           
         } 
     }
 

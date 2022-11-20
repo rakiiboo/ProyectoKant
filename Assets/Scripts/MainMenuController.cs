@@ -5,23 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-
-    public AudioClip SonidoGolpe;
-
-    private AudioSource audioSource;
+    public AudioSource audioSource1;
+    public AudioSource audioSource2;
 
     public void CambiarEscenaClick(string sceneName)
     {
         Debug.Log("Cambiando de Escena: " + sceneName);
         StartCoroutine(retrasoEscena(sceneName));
-        GetComponent<AudioSource>().Play();
+        audioSource2.Play();
     }
 
     public void Salirjuego()
     {
         Debug.Log("Saliendo del Juego");
         Application.Quit();
-        GetComponent<AudioSource>().Play();
+        audioSource2.Play();
     }
 
     IEnumerator retrasoEscena(string sceneName)

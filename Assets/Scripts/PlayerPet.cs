@@ -1,56 +1,81 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using System;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
 public class PlayerPet : MonoBehaviour
 {
-    public int life = 2;
+    public Transform target = null;                    
+    public float reactDelay = 0.5f;                    
+    public float recordFPS = 15f;                    
+    public float followSpeed = 5f;                    
+    public float targetDistance = 0f;                
+    public bool targetDistanceY = false;            
+    public bool targetPositionOnStart = false;        
+    public bool start = false;
 
-    public float speed;
-
-    public float jumpForce;
-
+    public int life = 2;  
+    public float jumpForce;   
     public GameObject lifesPanel;
-
-    public GameObject player;
-
-    private float distance;
-
     private Rigidbody2D rigidBody2D;
-
     public float horizontal;
-
     public float cooldownTime = 1f;
-
     private bool isGrounded;
-
     private bool isInCooldown;
-
     private Animator animator;
-
     private Vector2 initialPosition;
-
     public Vector2 respawnPoint;
-
     private GameObject destinyWarp;
 
-    void Start()
+    [Serializable]
+    public class TargetRecord
     {
+        public Vector2 position;                           
+
+        public TargetRecord(Vector2 position)
+        {
+            this.position = position;
+        }
+    }
+
+    private TargetRecord[] _records = null;            
+    private float _t = 0f;
+    private int _i = 0;                                
+    private int _j = 1;                                
+    private float _interval = 0f;
+    private TargetRecord _record = null;            
+    private bool _recording = true;                   
+    private int _arraySize = 1;
+
+    public void Start()
+    {
+        Initialize();
         rigidBody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         initialPosition = transform.position;
         respawnPoint = initialPosition;
     }
 
-    void Update()
+    public void Initialize()
     {
-        Vector2 direction = player.transform.position - transform.position;
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        if (Time.timeScale > 0 && distance >= 2)
+        if (targetPositionOnStart)
+            transform.position = target.position;
+
+        _interval = 1 / recordFPS;
+
+        _arraySize = Mathf.CeilToInt(recordFPS * reactDelay);
+        if (_arraySize == 0)
+            _arraySize = 1;
+
+        _records = new TargetRecord[_arraySize];
+    }
+
+    void Update()
+    {     
+        if (Time.timeScale > 0)
         {
-            horizontal = Input.GetAxis("Horizontal") * speed;
+            horizontal = Input.GetAxis("Horizontal");
             if (horizontal < 0.0f)
             {
                 transform.localScale = new Vector2(-0.7f, 0.7f);
@@ -63,7 +88,7 @@ public class PlayerPet : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             {
-                StartCoroutine(TimeDelayJump());              
+                StartCoroutine(TimeDelayJump());
             }
 
             if (!isGrounded)
@@ -73,18 +98,54 @@ public class PlayerPet : MonoBehaviour
             else
             {
                 animator.SetBool("isJumping", false);
-            }         
+            }
 
             if (Input.GetKeyDown(KeyCode.S) && destinyWarp)
             {
                 transform.position = destinyWarp.transform.position;
-            }        
+            }
 
             DeathOnFall();
-        } 
-        else
-        {
-            
+        }
+      
+    }
+
+    public void LateUpdate()
+    {
+        if (start)
+        {            
+            RecordData(Time.deltaTime);
+
+            if (targetDistance >= 10f)
+            {             
+                    transform.position = target.position;               
+            }
+
+            if (targetDistance <= 0f)
+            {
+                if (_record != null)
+                    transform.position = Vector2.MoveTowards(transform.position, _record.position, Time.deltaTime * followSpeed);
+            }
+            else if ((target.position - transform.position).magnitude > targetDistance)
+            {
+                if (!_recording)
+                {
+                    ResetRecordArray();
+                    _recording = true;
+                }
+
+                if (_record != null)
+                    transform.position = Vector2.MoveTowards(transform.position, _record.position, Time.deltaTime * followSpeed);
+            }
+            else if (targetDistanceY && Mathf.Abs(target.position.y - transform.position.y) > 0.5f)
+            {
+                if (_record != null)
+                    transform.position = Vector2.Lerp(transform.position, new Vector2(transform.position.x, target.position.y), Time.deltaTime * followSpeed);
+            }            
+            else
+            {
+                _recording = false;
+            }
         }
     }
 
@@ -95,11 +156,6 @@ public class PlayerPet : MonoBehaviour
         if (life < 0)
         {
             StartCoroutine(retrasoEscena("Lose"));
-            //life = 2;
-            //for(int i = 0; i < lifesPanel.transform.childCount; i++)
-            //{
-            //    lifesPanel.transform.GetChild(i).gameObject.SetActive(true);
-            //}
         }
     }
 
@@ -147,7 +203,7 @@ public class PlayerPet : MonoBehaviour
     }
 
     private void Jump()
-    {      
+    {
         rigidBody2D.AddForce(Vector2.up * jumpForce);
     }
 
@@ -155,7 +211,7 @@ public class PlayerPet : MonoBehaviour
     {
         if (transform.position.y < -25f)
         {
-            transform.position = respawnPoint;
+            transform.position = target.position;
             Hit(0, null);
         }
     }
@@ -174,6 +230,12 @@ public class PlayerPet : MonoBehaviour
         {
             isGrounded = true;
         }
+
+        if (collider.name == "FallingPlatform")
+        {
+            isGrounded = true;
+        }
+
         if (collider.name == "warpA" || collider.name == "warpB")
         {
             GameObject warp = collider.transform.parent.gameObject;
@@ -197,6 +259,60 @@ public class PlayerPet : MonoBehaviour
         if (collider.name == "warpA" || collider.name == "warpB")
         {
             destinyWarp = null;
+        }
+    }
+
+    private void RecordData(float deltaTime)
+    {
+        if (!_recording)
+            return;
+    
+        if (_t < _interval)
+        {
+            _t += deltaTime;
+        }
+       
+        else
+        {           
+            _records[_i] = new TargetRecord(target.position);
+           
+            if (_i < _records.Length - 1)
+                _i++;
+            else
+                _i = 0;
+
+            if (_j < _records.Length - 1)
+                _j++;
+            else
+                _j = 0;
+
+            _record = _records[_j];
+
+            _t = 0f;
+        }
+    }
+
+    private void ResetRecordArray()
+    {
+        _i = 0;
+        _j = 1;
+        _t = 0f;
+
+        _records = new TargetRecord[_arraySize];
+
+        for (int i = 0; i < _records.Length; i++)
+        {
+            _records[i] = new TargetRecord(transform.position);
+        }
+
+        _record = _records[_j];
+    }
+
+    public TargetRecord currentRecord
+    {
+        get
+        {
+            return _record;
         }
     }
 }

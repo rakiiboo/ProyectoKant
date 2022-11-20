@@ -9,6 +9,8 @@ public class NPC : MonoBehaviour
     public GameObject pressPanel;
     public GameObject dialoguePanel;
     public bool playerIsClose;
+    public DialogueTrigger trigger;
+
 
     void Update()
     {     
@@ -18,8 +20,6 @@ public class NPC : MonoBehaviour
             trigger.StartDialogue();
         }
     }
-
-    public DialogueTrigger trigger;
 
     private void OnCollisionEnter2D (Collision2D collision)
     {
@@ -32,7 +32,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             pressPanel.SetActive(true);
-            Debug.Log("El boton F esta desactivado");
+            //Debug.Log("El boton F esta activado");
             playerIsClose = true;
         }
     }
@@ -42,7 +42,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             pressPanel.SetActive(false);
-            Debug.Log("El boton F esta desactivado");
+            //Debug.Log("El boton F esta desactivado");
             playerIsClose = false;         
         }
     }
