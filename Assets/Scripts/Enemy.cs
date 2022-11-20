@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
 
     private AudioSource audioSource;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +41,7 @@ public class Enemy : MonoBehaviour
     protected void OnTriggerEnter2D(Collider2D collider)
     {
         Player player = collider.GetComponent<Player>();
-        PlayerPet playerPet = collider.GetComponent<PlayerPet>();
-        FollowPlayer followplayer = collider.GetComponent<FollowPlayer>();
+        PlayerPet playerPet = collider.GetComponent<PlayerPet>();     
 
         if (player != null)
         {
@@ -52,12 +52,7 @@ public class Enemy : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
             playerPet.Hit(knockback, gameObject);
-        }
-        else if (followplayer != null)
-        {
-            GetComponent<AudioSource>().Play();
-            followplayer.Hit(knockback, gameObject);
-        }
+        }     
     }
 
 }
