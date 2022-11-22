@@ -131,10 +131,10 @@ TextureImporter:
       name: tilesBosque_0
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 1651
-        width: 183
-        height: 240
+        x: 93
+        y: 1265
+        width: 807
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afe812cc2ef78274989e4ae8af0cc22d
-      internalID: 367244479
+      spriteID: 233334b3ac92f6949a19c2f9a66a8b59
+      internalID: 2048459839
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,10 @@ TextureImporter:
       name: tilesBosque_1
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 1336
-        width: 239
-        height: 266
+        x: 900
+        y: 1401
+        width: 580
+        height: 544
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b3f5981aca5f44faf7b25dd4c5b7ef
-      internalID: 1579905815
+      spriteID: 49f63d8c56deb5248a8d38220c706402
+      internalID: -1874703423
       vertices: []
       indices: 
       edges: []
@@ -173,10 +173,10 @@ TextureImporter:
       name: tilesBosque_2
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 998
-        width: 196
-        height: 198
+        x: 120
+        y: 1663
+        width: 203
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4bd0a9a7670d5049b8953c0ee42f095
-      internalID: 1841383520
+      spriteID: 04fec4e94d4efc64c96833375ee671d8
+      internalID: 760988893
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: tilesBosque_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 1556
-        width: 788
-        height: 228
+        x: 366
+        y: 1664
+        width: 158
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6bcd322ef4b74e4789401408d01f920
-      internalID: 547436087
+      spriteID: aeeecf987ae2204469d0a33cfd63b811
+      internalID: -1549930252
       vertices: []
       indices: 
       edges: []
@@ -215,10 +215,10 @@ TextureImporter:
       name: tilesBosque_4
       rect:
         serializedVersion: 2
-        x: 188
-        y: 1012
-        width: 592
-        height: 518
+        x: 565
+        y: 1665
+        width: 207
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13939e054377be54aba2da5419bbc09d
-      internalID: 1629099218
+      spriteID: aedaf8237f67e7a46a186ee13b39a7a5
+      internalID: -1838913800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 566
+        width: 236
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e6e86eacf51f243a646585a23ee7b5
+      internalID: -525234295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 565
+        width: 197
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34f9bc493b779c4784cafab63693c4f
+      internalID: 1712107639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 954
+        width: 209
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0038c5b5e9391ac41ac4f4a21ab7bd15
+      internalID: 1253222490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 438
+        width: 400
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e9d21c2801d9c4b860b6229eacd9a1
+      internalID: -1399990005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_9
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 561
+        width: 222
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08294514f09f6544968010698b550b7
+      internalID: -1203399445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 945
+        width: 240
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b5c205ed3b61e499964b732e9a231c
+      internalID: -1270661613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_11
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 949
+        width: 89
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afab50c6d8d5f7148a31b5ae5ef44fc3
+      internalID: -209349574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_12
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 962
+        width: 213
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9afd47d6397b04b891ffcdc0775c20
+      internalID: 944551717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_13
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 956
+        width: 212
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcaf15db6572649adafac7903e1489
+      internalID: -692933800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 72
+        width: 314
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1979ff7f42ff4f74f95b3ca8664d6fb4
+      internalID: -2077162732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_15
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 88
+        width: 235
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070a2e3cb721bc4bb0d94394a6172af
+      internalID: 2066607792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesBosque_16
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 65
+        width: 241
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1864d3b4ea8b9c428a178ada94123bc
+      internalID: 754326723
       vertices: []
       indices: 
       edges: []
@@ -243,11 +495,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tilesBosque_1: 1579905815
-      tilesBosque_3: 547436087
-      tilesBosque_2: 1841383520
-      tilesBosque_4: 1629099218
-      tilesBosque_0: 367244479
+      tilesBosque_1: -1874703423
+      tilesBosque_16: 754326723
+      tilesBosque_8: -1399990005
+      tilesBosque_12: 944551717
+      tilesBosque_3: -1549930252
+      tilesBosque_2: 760988893
+      tilesBosque_14: -2077162732
+      tilesBosque_5: -525234295
+      tilesBosque_4: -1838913800
+      tilesBosque_9: -1203399445
+      tilesBosque_0: 2048459839
+      tilesBosque_11: -209349574
+      tilesBosque_13: -692933800
+      tilesBosque_10: -1270661613
+      tilesBosque_6: 1712107639
+      tilesBosque_7: 1253222490
+      tilesBosque_15: 2066607792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

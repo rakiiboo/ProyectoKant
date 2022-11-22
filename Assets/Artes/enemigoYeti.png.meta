@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ed8a7acf46e77e4882cab93282bd828
+guid: 4c7dfcb2a08aedc46bd9ff0ceeb8f0a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -126,49 +126,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: bosqueNPCS_0
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 358
-        width: 405
-        height: 421
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e15ffd33d8fa0a442916a070a44f260c
-      internalID: 626599731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bosqueNPCS_1
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 322
-        width: 319
-        height: 437
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87fd7bdc95ed5ca41bdd5eb95be21ac7
-      internalID: -1077485319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -179,9 +137,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bosqueNPCS_1: -1077485319
-      bosqueNPCS_0: 626599731
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
