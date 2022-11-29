@@ -165,7 +165,7 @@ MonoBehaviour:
   - {fileID: 1141101082}
   - {fileID: 379294803}
   - {fileID: 277018286}
-  song: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
+  song: {fileID: 8300000, guid: d3a6080e2effc10488536a70c114d67c, type: 3}
   isFinal: 0
   character1: {fileID: 475420900}
   character2: {fileID: 1412338604}
@@ -195,9 +195,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d3a6080e2effc10488536a70c114d67c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.75
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   horizontal: 0
   cooldownTime: 0.5
   respawnPoint: {x: 0, y: 0}
-  SonidoSalto: {fileID: 8300000, guid: d804dc142b354a74393ad01fe7b4745b, type: 3}
+  SonidoSalto: {fileID: 8300000, guid: 202601ec6f355ae45add89c09281a851, type: 3}
 --- !u!61 &475420905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2117,7 +2117,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d804dc142b354a74393ad01fe7b4745b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 202601ec6f355ae45add89c09281a851, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

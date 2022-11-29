@@ -31095,7 +31095,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5200af94f601e584ea7636f8c6366677, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
@@ -31196,13 +31196,15 @@ MonoBehaviour:
   level: 3
   winSpot: {fileID: 1357782769}
   player: {fileID: 1898063302}
+  playerPet: {fileID: 1379069471}
   checkPoints:
   - {fileID: 292857304}
   - {fileID: 1720535507}
   - {fileID: 680889609}
   - {fileID: 1577707634}
   - {fileID: 1249623915}
-  song: {fileID: 8300000, guid: d413fb29295d4194f8b1b08702725489, type: 3}
+  getLifes: []
+  song: {fileID: 8300000, guid: 5200af94f601e584ea7636f8c6366677, type: 3}
   isFinal: 0
   character1: {fileID: 1898063299}
   character2: {fileID: 1379069470}
@@ -37701,24 +37703,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1379069470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ca49a2322680a45941d845dbcfa871, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a51f698cc3b433408e8a4e959055e7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1898063300}
   reactDelay: 0.3
   recordFPS: 60
-  followSpeed: 20
-  targetDistance: 1.5
+  followSpeed: 5
+  targetDistance: 2
   targetDistanceY: 1
-  targetPositionOnStart: 1
+  targetPositionOnStart: 0
   start: 1
   life: 2
-  jumpForce: 800
+  jumpForce: 550
   lifesPanel: {fileID: 1819556426}
   horizontal: 0
   cooldownTime: 1
   respawnPoint: {x: 0, y: 0}
-  gizmo: 1
 --- !u!82 &1379069472
 AudioSource:
   m_ObjectHideFlags: 0
@@ -44844,8 +44845,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 2
-  speed: 3
-  jumpForce: 700
+  speed: 5
+  jumpForce: 550
   bulletPrefab: {fileID: 3042019017827873129, guid: 1dfb223d854cad6428a85c02ab9462a2, type: 3}
   lifesPanel: {fileID: 579849547}
   horizontal: 0
