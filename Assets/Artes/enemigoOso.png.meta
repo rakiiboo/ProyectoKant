@@ -126,7 +126,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: enemigoOso_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1595
+        width: 300
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4892e870f3cf44944b635e793a0e16e9
+      internalID: 698116572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1598
+        width: 299
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b040d3a557a63f945ba0ab730b3aec5f
+      internalID: 825610475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_2
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1596
+        width: 309
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b162c7f9b8a9985458bf4de65bd9b98f
+      internalID: 115287800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1599
+        width: 296
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127125ccbc4464e4291d055616accd48
+      internalID: -1357557139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_4
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1157
+        width: 301
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df234d3e60f36f5419110a590b6e896a
+      internalID: 76247914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_5
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1153
+        width: 292
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb9a9da850a5a944a27807332eca3ec
+      internalID: -1875043746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1152
+        width: 287
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752f59b9a3c3e5d4f8a2c65c37cc62b4
+      internalID: -17528807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoOso_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1149
+        width: 299
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5334cf632dcf4e835c6b4926147c0
+      internalID: -679755172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -137,7 +305,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemigoOso_4: 76247914
+      enemigoOso_6: -17528807
+      enemigoOso_2: 115287800
+      enemigoOso_5: -1875043746
+      enemigoOso_0: 698116572
+      enemigoOso_3: -1357557139
+      enemigoOso_1: 825610475
+      enemigoOso_7: -679755172
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9519fb169f39456409036cb1a4d037a1
+guid: 9318e032180f6594780d3539ac2f62a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kant_0
+      name: Nina_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1357
-        width: 115
-        height: 277
+        x: 139
+        y: 1112
+        width: 78
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,104 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dce30b942f5c2a40873e6b5bbcbe6ad
-      internalID: 733666418
+      spriteID: e5d0921052e1ea74e96e5a90aca6ff78
+      internalID: 999062927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_1
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 1351
-        width: 120
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb443c8ccd1797b41b422fcaba9b7c2a
-      internalID: -1742973119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_2
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 1358
-        width: 122
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c1b1e2614088e741b2e38faef838dd8
-      internalID: 747112190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_3
-      rect:
-        serializedVersion: 2
-        x: 796
-        y: 1354
-        width: 105
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b11162a136a9ea48ac82081065e42f2
-      internalID: 1565701404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_4
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 1063
-        width: 107
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 770fe4be313a3604db2838f8ac8ff7a3
-      internalID: 470656779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_5
+      name: Nina_1
       rect:
         serializedVersion: 2
         x: 364
-        y: 1058
-        width: 103
-        height: 280
+        y: 1113
+        width: 93
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c05a55e642aa9ed4f81a7a822e85fdf8
-      internalID: -110613367
+      spriteID: e86c09d302fdc3c43a95c55e2c3e9551
+      internalID: -909359909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_6
+      name: Nina_2
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1050
-        width: 107
-        height: 292
+        x: 590
+        y: 1113
+        width: 92
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01aba07038fc8ea4b8c8ee06efdfeaf8
-      internalID: -506102798
+      spriteID: 6048b9bc3047d5241a15c79ca794cc8b
+      internalID: 1783187026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_7
+      name: Nina_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 706
-        width: 109
-        height: 294
+        x: 807
+        y: 1113
+        width: 77
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4109fec2b12400849b2094d95545cd2c
-      internalID: -302509321
+      spriteID: 8396356be7c89544093a9f911be345d4
+      internalID: -148905385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_8
+      name: Nina_4
       rect:
         serializedVersion: 2
-        x: 362
-        y: 708
-        width: 131
-        height: 299
+        x: 119
+        y: 807
+        width: 95
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,83 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8366c101090c83e4ebce98d0269bae19
-      internalID: -559686532
+      spriteID: 4b4e9ffc1b97a8748a1595ee9014daba
+      internalID: -616194068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_9
-      rect:
-        serializedVersion: 2
-        x: 587
-        y: 705
-        width: 143
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5542e143cc743442b9b6ab8c480559c
-      internalID: -1890447845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_10
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 688
-        width: 134
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b053b03260baf2e4baff0a264179ca03
-      internalID: 248225234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_11
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 382
-        width: 129
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a941aab0e758b26498055395b3615354
-      internalID: -1942829814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kant_12
+      name: Nina_5
       rect:
         serializedVersion: 2
         x: 361
-        y: 383
-        width: 123
-        height: 296
+        y: 807
+        width: 80
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cb96588ab339846a215a8fe025dee9
-      internalID: -765045966
+      spriteID: 4f7803572ca7e6a4782ce3fae7f6344b
+      internalID: -1718634453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_13
+      name: Nina_6
       rect:
         serializedVersion: 2
-        x: 599
-        y: 382
-        width: 112
-        height: 291
+        x: 573
+        y: 804
+        width: 80
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49d54e3ab171ec347afb880b15e332d6
-      internalID: -1890538763
+      spriteID: a85e3880c9c956347a3d3f773c5cdbf1
+      internalID: -1972010642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_14
+      name: Nina_7
       rect:
         serializedVersion: 2
-        x: 784
-        y: 382
-        width: 108
-        height: 293
+        x: 815
+        y: 809
+        width: 75
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c9664f857a4d64eae6c51578bd47cd
-      internalID: 1240643326
+      spriteID: 46e5bd7f39cb25347b2783d708a0be40
+      internalID: 568004476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_15
+      name: Nina_8
       rect:
         serializedVersion: 2
-        x: 118
-        y: 37
-        width: 109
-        height: 280
+        x: 114
+        y: 468
+        width: 98
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,8 +310,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b13af93d24943408cb76755926b2ca
-      internalID: -60989293
+      spriteID: 0677834317ec82c4d878d53dfdb5f56a
+      internalID: 721352143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nina_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 467
+        width: 95
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d458ae392e4d746aa5fa022b316ec5
+      internalID: 1148164991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nina_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 468
+        width: 106
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068cb8ab02ea9c644832a421449a6d48
+      internalID: -2114490320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nina_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 471
+        width: 97
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f50ea8b4ef87d44b54f4ec93de6406
+      internalID: -1181290055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nina_12
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 221
+        width: 92
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19999c7311cac6a4a93b4da9f47cc262
+      internalID: -1467184575
       vertices: []
       indices: 
       edges: []
@@ -474,22 +411,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kant_3: 1565701404
-      Kant_7: -302509321
-      Kant_5: -110613367
-      Kant_12: -765045966
-      Kant_13: -1890538763
-      Kant_1: -1742973119
-      Kant_2: 747112190
-      Kant_10: 248225234
-      Kant_14: 1240643326
-      Kant_8: -559686532
-      Kant_6: -506102798
-      Kant_15: -60989293
-      Kant_11: -1942829814
-      Kant_9: -1890447845
-      Kant_0: 733666418
-      Kant_4: 470656779
+      Nina_5: -1718634453
+      Nina_0: 999062927
+      Nina_10: -2114490320
+      Nina_8: 721352143
+      Nina_2: 1783187026
+      Nina_1: -909359909
+      Nina_11: -1181290055
+      Nina_12: -1467184575
+      Nina_7: 568004476
+      Nina_9: 1148164991
+      Nina_6: -1972010642
+      Nina_3: -148905385
+      Nina_4: -616194068
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

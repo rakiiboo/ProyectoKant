@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9519fb169f39456409036cb1a4d037a1
+guid: d0b643b37a8a83949a8a342e6e2085ae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kant_0
+      name: Animales_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1357
-        width: 115
-        height: 277
+        x: 100
+        y: 734
+        width: 142
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dce30b942f5c2a40873e6b5bbcbe6ad
-      internalID: 733666418
+      spriteID: 8594324f58f308a4f9de11c0332d43b9
+      internalID: 528016445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_1
+      name: Animales_1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 1351
-        width: 120
-        height: 301
+        x: 289
+        y: 734
+        width: 140
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb443c8ccd1797b41b422fcaba9b7c2a
-      internalID: -1742973119
+      spriteID: 3a8c549d91f4c7248861e474d9c510a8
+      internalID: -1739685653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_2
+      name: Animales_2
       rect:
         serializedVersion: 2
-        x: 570
-        y: 1358
-        width: 122
-        height: 301
+        x: 476
+        y: 732
+        width: 138
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c1b1e2614088e741b2e38faef838dd8
-      internalID: 747112190
+      spriteID: 3aef671b9ffb1524380ff258f6482e4d
+      internalID: -1955114866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_3
+      name: Animales_3
       rect:
         serializedVersion: 2
-        x: 796
-        y: 1354
-        width: 105
-        height: 303
+        x: 653
+        y: 730
+        width: 140
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b11162a136a9ea48ac82081065e42f2
-      internalID: 1565701404
+      spriteID: 915cafa1c5e595d448eb443e8758c24b
+      internalID: 782524981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_4
+      name: Animales_4
       rect:
         serializedVersion: 2
-        x: 122
-        y: 1063
-        width: 107
-        height: 280
+        x: 125
+        y: 1145
+        width: 76
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 770fe4be313a3604db2838f8ac8ff7a3
-      internalID: 470656779
+      spriteID: c3ffaa78be05f1d4d91ff8c5bb6795d8
+      internalID: 104061653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_5
+      name: Animales_5
       rect:
         serializedVersion: 2
-        x: 364
-        y: 1058
-        width: 103
-        height: 280
+        x: 255
+        y: 1146
+        width: 71
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c05a55e642aa9ed4f81a7a822e85fdf8
-      internalID: -110613367
+      spriteID: 1b894344daf757a48914a50d6704f254
+      internalID: -438610402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_6
+      name: Animales_6
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1050
-        width: 107
-        height: 292
+        x: 377
+        y: 1145
+        width: 73
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01aba07038fc8ea4b8c8ee06efdfeaf8
-      internalID: -506102798
+      spriteID: 6028e68dee29d1741820e24ae3a4be9b
+      internalID: 595807891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_7
+      name: Animales_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 706
-        width: 109
-        height: 294
+        x: 500
+        y: 1145
+        width: 65
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4109fec2b12400849b2094d95545cd2c
-      internalID: -302509321
+      spriteID: 377e5d94d30d5ff40b696c7dc97bda07
+      internalID: 458277686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_8
+      name: Animales_8
       rect:
         serializedVersion: 2
-        x: 362
-        y: 708
-        width: 131
-        height: 299
+        x: 626
+        y: 1146
+        width: 61
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8366c101090c83e4ebce98d0269bae19
-      internalID: -559686532
+      spriteID: da5a5b40195ce714e8a1d5c5c60df0b5
+      internalID: 1720074898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_9
+      name: Animales_9
       rect:
         serializedVersion: 2
-        x: 587
-        y: 705
-        width: 143
-        height: 281
+        x: 749
+        y: 1142
+        width: 60
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5542e143cc743442b9b6ab8c480559c
-      internalID: -1890447845
+      spriteID: f02b1126167ad9f4ab0fa87f20164419
+      internalID: -398382334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_10
+      name: Animales_10
       rect:
         serializedVersion: 2
-        x: 774
-        y: 688
-        width: 134
-        height: 291
+        x: 869
+        y: 1146
+        width: 60
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b053b03260baf2e4baff0a264179ca03
-      internalID: 248225234
+      spriteID: 28fd257a8eae66348942ecf55ac587f6
+      internalID: -1154359921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_11
+      name: Animales_11
       rect:
         serializedVersion: 2
-        x: 114
-        y: 382
-        width: 129
-        height: 290
+        x: 149
+        y: 964
+        width: 54
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a941aab0e758b26498055395b3615354
-      internalID: -1942829814
+      spriteID: c2b4d166bb86fba48a7a729799373be7
+      internalID: -1552207794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_12
+      name: Animales_12
       rect:
         serializedVersion: 2
-        x: 361
-        y: 383
-        width: 123
-        height: 296
+        x: 264
+        y: 962
+        width: 64
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cb96588ab339846a215a8fe025dee9
-      internalID: -765045966
+      spriteID: 269071c84a10898469c2155aabc09b41
+      internalID: -929130838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_13
+      name: Animales_13
       rect:
         serializedVersion: 2
-        x: 599
-        y: 382
-        width: 112
-        height: 291
+        x: 388
+        y: 961
+        width: 54
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49d54e3ab171ec347afb880b15e332d6
-      internalID: -1890538763
+      spriteID: 70aa5d1fa9ee92a46a90379f9fd8e2d2
+      internalID: 1585642774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_14
+      name: Animales_14
       rect:
         serializedVersion: 2
-        x: 784
-        y: 382
-        width: 108
-        height: 293
+        x: 505
+        y: 959
+        width: 62
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c9664f857a4d64eae6c51578bd47cd
-      internalID: 1240643326
+      spriteID: f166b97e889d26b4093b780bf6abc37e
+      internalID: -37264532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kant_15
+      name: Animales_15
       rect:
         serializedVersion: 2
-        x: 118
-        y: 37
-        width: 109
-        height: 280
+        x: 619
+        y: 963
+        width: 64
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,8 +457,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b13af93d24943408cb76755926b2ca
-      internalID: -60989293
+      spriteID: 7ae844dd960ef0846bd0295073502f6f
+      internalID: -614742757
       vertices: []
       indices: 
       edges: []
@@ -474,22 +474,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kant_3: 1565701404
-      Kant_7: -302509321
-      Kant_5: -110613367
-      Kant_12: -765045966
-      Kant_13: -1890538763
-      Kant_1: -1742973119
-      Kant_2: 747112190
-      Kant_10: 248225234
-      Kant_14: 1240643326
-      Kant_8: -559686532
-      Kant_6: -506102798
-      Kant_15: -60989293
-      Kant_11: -1942829814
-      Kant_9: -1890447845
-      Kant_0: 733666418
-      Kant_4: 470656779
+      Animales_10: -1154359921
+      Animales_15: -614742757
+      Animales_3: 782524981
+      Animales_13: 1585642774
+      Animales_1: -1739685653
+      Animales_11: -1552207794
+      Animales_5: -438610402
+      Animales_0: 528016445
+      Animales_14: -37264532
+      Animales_2: -1955114866
+      Animales_8: 1720074898
+      Animales_9: -398382334
+      Animales_6: 595807891
+      Animales_7: 458277686
+      Animales_12: -929130838
+      Animales_4: 104061653
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
